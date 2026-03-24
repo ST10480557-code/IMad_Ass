@@ -72,9 +72,13 @@ var Time : String
                 ).show()
             }
 
+        }
 
+        btnReset.setOnClickListener {
 
-
+            // clear all input fields
+            edtTime.text.clear()
+            tvTitle.text="Social Sparks"
         }
     }
 }
