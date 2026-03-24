@@ -34,6 +34,7 @@ var Time : String
         var Dinner : String
         var Night : String
 
+
         btnEnter.setOnClickListener {
             Morning = edtTime.text.toString()
             Mid_morning = edtTime.text.toString()
@@ -42,6 +43,30 @@ var Time : String
             Dinner = edtTime.text.toString()
             Night = edtTime.text.toString()
             Time = edtTime.text.toString()
+
+            //  If Statements
+            if (Time == "Morning"){
+                println(" Send a good morning text to a family member")
+
+            } else if (Time == "Mid_morning")
+                println("Reach out to a colleague with a quick 'Thank you'")
+
+            else if (Time == "Afternoon")
+                println("Share a funny meme or interesting link with a friend")
+
+            else if (Time == "Afternoon_Snack")
+                println("Send a quick 'thinking of you' message")
+
+            else if (Time == "Dinner")
+                println("Call a friend or relative for a 5 minute catch-up")
+
+            else if (Time == "Night")
+                println("Leave a thoughtful comment on a friend's post")
+
+            else{
+                println("Please enter valid information")
+            }
+
 
         }
     }
