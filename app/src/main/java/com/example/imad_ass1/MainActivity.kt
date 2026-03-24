@@ -25,5 +25,24 @@ class MainActivity : AppCompatActivity() {
         val edtTime = findViewById<EditText>(R.id.edtTime)
         val btnEnter = findViewById<Button>(R.id.btnEnter)
         val btnReset = findViewById<Button>(R.id.btnReset)
+
+var Time : String
+        var Morning : String
+        var Mid_morning : String
+        var Afternoon : String
+        var Afternoon_Snack : String
+        var Dinner : String
+        var Night : String
+
+        btnEnter.setOnClickListener {
+            Morning = edtTime.text.toString()
+            Mid_morning = edtTime.text.toString()
+            Afternoon = edtTime.text.toString()
+            Afternoon_Snack = edtTime.text.toString()
+            Dinner = edtTime.text.toString()
+            Night = edtTime.text.toString()
+            Time = edtTime.text.toString()
+
+        }
     }
 }
