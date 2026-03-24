@@ -1,6 +1,9 @@
 package com.example.imad_ass1
 
 import android.os.Bundle
+import android.widget.Button
+import android.widget.EditText
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -15,6 +18,12 @@ class MainActivity : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
-        }
+        }//viewCompat
+        // Code goes here vvv
+        //Declaration
+        val tvTitle = findViewById<TextView>(R.id.tvTitle)
+        val edtTime = findViewById<EditText>(R.id.edtTime)
+        val btnEnter = findViewById<Button>(R.id.btnEnter)
+        val btnReset = findViewById<Button>(R.id.btnReset)
     }
 }
