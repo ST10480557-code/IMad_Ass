@@ -46,25 +46,25 @@ var Time : String
 
             //  If Statements
             if (Time == "Morning"){
-                println(" Send a good morning text to a family member")
+                tvTitle.text = " Send a good morning text to a family member"
 
             } else if (Time == "Mid_morning")
-                println("Reach out to a colleague with a quick 'Thank you'")
+                tvTitle.text = "Reach out to a colleague with a quick 'Thank you'"
 
             else if (Time == "Afternoon")
-                println("Share a funny meme or interesting link with a friend")
+                tvTitle.text = "Share a funny meme or interesting link with a friend"
 
             else if (Time == "Afternoon_Snack")
-                println("Send a quick 'thinking of you' message")
+                tvTitle.text = "Send a quick 'thinking of you' message"
 
             else if (Time == "Dinner")
-                println("Call a friend or relative for a 5 minute catch-up")
+                tvTitle.text = "Call a friend or relative for a 5 minute catch-up"
 
             else if (Time == "Night")
-                println("Leave a thoughtful comment on a friend's post")
+                tvTitle.text = "Leave a thoughtful comment on a friend's post"
 
             else{
-                println("Please enter valid information")
+                tvTitle.text = "Please enter valid information"
             }
 
 
